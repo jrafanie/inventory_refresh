@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "activerecord", ">= 5.0.0.racecar1", "< 5.2"
   spec.add_dependency "more_core_extensions", "~> 3.5"
-  spec.add_dependency "pg", "> 0"
+  spec.add_dependency "pg", ">= 0"
 
   spec.add_development_dependency "ancestry"
   spec.add_development_dependency "bundler", "~> 1.16"
